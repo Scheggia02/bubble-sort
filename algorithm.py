@@ -4,7 +4,7 @@ from random import randrange
 #Create a Random List of integers
 my_list = [randrange(1000) for _ in range(1000)]
 
-# ------ My BubbleSort Algorithm ------
+# ------ BubbleSort Algorithm ------
 
 def OwnBubbleSort(list):
     start_time = time.time() 
