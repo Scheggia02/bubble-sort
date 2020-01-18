@@ -2,7 +2,7 @@ from timeit import time
 from random import randrange
 
 #Create a Random List of integers
-my_list = [randrange(1000) for _ in range(1000)]
+my_list = [randrange(1000) for _ in range(10)]
 
 # ------ BubbleSort Algorithm ------
 
